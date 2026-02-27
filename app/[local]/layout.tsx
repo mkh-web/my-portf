@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: { params: { locale: string } 
   const locale = params.locale;
   const isAr = locale === "ar";
 
-  const baseUrl = "https://mk.com";
+  const baseUrl = "https://mk-portfolio-eight-tau.vercel.app";
   const homePath = `/${locale}`;
 
   const siteName = isAr ? "مهند خالد حبيشان" : "Mohanad Khaled Hubaishan";

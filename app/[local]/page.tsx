@@ -201,19 +201,19 @@ export default function MainPage() {
         icon: <FiCode className="text-red-500" />,
         titleEn: "Web Development",
         titleAr: "تطوير الويب",
-        items: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Responsive UI", "REST APIs"],
+        items: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Responsive UI", "REST APIs","github","laravel","motion"],
       },
       {
         icon: <FiServer className="text-orange-500" />,
         titleEn: "Cloud & Server",
         titleAr: "السيرفر والسحابة",
-        items: ["Linux VPS", "Nginx", "SSL/TLS", "Deployment", "Backups", "Basic monitoring/logs"],
+        items: ["Linux VPS", "SSL/TLS", "Deployment", "Backups", "Basic monitoring/logs","google workspace"],
       },
       {
         icon: <FiAward className="text-red-500" />,
         titleEn: "Professional",
         titleAr: "مهنية",
-        items: ["Collaboration", "Documentation", "Problem Solving", "Time Management", "Risk Awareness"],
+        items: ["Collaboration", "Documentation", "Problem Solving", "Time Management", "Risk Awareness","project management"],
       },
     ],
     []
@@ -224,7 +224,7 @@ export default function MainPage() {
       {
         icon: <FiBookOpen className="text-orange-500" />,
         nameEn: "Google Career Certificates — Foundations: Data, Data, Everywhere",
-        nameAr: "شهادات Google — أساسيات البيانات: البيانات في كل مكان",
+        nameAr: "شهادات Google في أساسيات البيانات: البيانات في كل مكان",
       },
       {
         icon: <FiBookOpen className="text-red-500" />,
