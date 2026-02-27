@@ -123,6 +123,7 @@ export default function MainPage() {
         whatsapp: "WhatsApp",
         lang: "العربية",
       },
+      phone: '+967-782-902-986'
     },
     ar: {
       nav: {
@@ -147,6 +148,8 @@ export default function MainPage() {
         whatsapp: "واتساب",
         lang: "English",
       },
+      phone: '967-782-902-986+'
+
     },
   };
 
@@ -201,19 +204,19 @@ export default function MainPage() {
         icon: <FiCode className="text-red-500" />,
         titleEn: "Web Development",
         titleAr: "تطوير الويب",
-        items: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Responsive UI", "REST APIs","github","laravel","motion"],
+        items: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Responsive UI", "REST APIs", "github", "laravel", "motion"],
       },
       {
         icon: <FiServer className="text-orange-500" />,
         titleEn: "Cloud & Server",
         titleAr: "السيرفر والسحابة",
-        items: ["Linux VPS", "SSL/TLS", "Deployment", "Backups", "Basic monitoring/logs","google workspace"],
+        items: ["Linux VPS", "SSL/TLS", "Deployment", "Backups", "Basic monitoring/logs", "google workspace"],
       },
       {
         icon: <FiAward className="text-red-500" />,
         titleEn: "Professional",
         titleAr: "مهنية",
-        items: ["Collaboration", "Documentation", "Problem Solving", "Time Management", "Risk Awareness","project management"],
+        items: ["Collaboration", "Documentation", "Problem Solving", "Time Management", "Risk Awareness", "project management"],
       },
     ],
     []
@@ -522,7 +525,7 @@ export default function MainPage() {
               </span>
               <span className="rounded-full border border-zinc-100 bg-white px-4 py-2 text-xs text-zinc-700">
                 <FiPhone className="inline -mt-0.5 me-1 text-orange-500" />
-                +967 782 902 986
+                {t.phone}
               </span>
             </div>
           </motion.section>
